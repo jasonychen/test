@@ -144,7 +144,7 @@ footer{
 /* Media Queries */
 
 
-@media(max-width: 384px){
+@media(max-width: 350px){
   header #brand,
   header nav,
   header nav li,
