@@ -21,15 +21,9 @@ ul{
 
 }
 
-.button_1{
-	height:38px;
-	background:#D9853B;
-	border: none;
-	padding: 0 20px 0 20px;
-	color: #ffffff;
-	font-size: 16px;
+.hover{
+	background-color: #D9853B;
 }
-
 
 header{
 	background:#74AFAD;
@@ -100,22 +94,6 @@ header a:hover{
 	padding:15px;
 	color:#ffffff;
 	background: #558C89;
-}
-
-#EmailContact h1{
-	float:left;
-
-}
-
-#EmailContact form{
-	margin-top: 20px;
-	float:right;
-}
-
-#EmailContact input[type="email"]{
-	padding:4px;
-	height:20px;
-	width:225px;
 }
 
 /* we are starting some boxes now */
