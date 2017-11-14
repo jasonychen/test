@@ -1,14 +1,74 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="author" content="Jason Chen">
+  <meta charset="utf-8">
+  <meta name ="viewport" content="width=device-width">
+  <meta name="description" content="Portfolio Page for Jason Chen">
+  <meta name="keywords" content ="About Me, Jason Chen, Resume, Contact">
+  <meta name="author" content="Jason Yue-Young Chen">
+  <title>Jason's Portfolio Page | Welcome </title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./Scripts/imageopacity.js"></script>
+  
 </head>
+
 <body>
-<h1>Jason Chen</h1>
-<h2>UCI Student and Software Intern </h2>
-<p>I'm hosted with GitHub Pages and weeeeeeeeeee.</p>
-<div id= "top"></div>
-<div id=" bot"></div>
+  <header>
+    <div class="container">
+      <div id="brand">
+        <h1>Jason Chen</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="myshow">
+    <div class="container">
+      <h1>UCI Student and Software Engineer</h1>
+      <p> Nice to meet you :) !</p>
+    </div>
+  </section>
+
+  <section id="EmailContact">
+  
+  </section>
+
+  <section id="boxes">
+    <div class ="container">
+      <div class ="box">
+        <a href="about.html"><img id="image1" src="./img/me_icon.jpg" ></a>
+        <h3>About Me</h3>
+        <p>Click my picture to find out more about me!</p>
+      </div>
+
+      <div class ="box">
+        <a href="resume.html"><img id="image2" src="./img/resume_icon.jpg"></a>
+        <h3>Resume</h3>
+        <p>Click the pic to find out my work!</p>
+      </div>
+
+      <div class ="box">
+        <a href="contact.html"><img id="image3" src="./img/social_icon.jpg"></a>
+        <h3>Contact Me</h3>
+        <p>Click the picture and let's talk!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Hope you have a nice day :D !</p>
+  </footer>
+
 </body>
 </html>
