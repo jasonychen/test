@@ -141,18 +141,13 @@ footer{
 }
 
 
-/* jquery css */
-
 /* Media Queries */
 
-/* media queries: */
 
 @media(max-width: 384px){
   header #brand,
   header nav,
   header nav li,
-  #emailcontact h1,
-  #emailcontact form,
   #boxes .box,
   article#main-col{
     float:none;
@@ -168,22 +163,11 @@ footer{
     margin-top:35px;
   }
 
-  #emailcontact button, .quote button{
-    display:block;
-    width:50%;
-  }
-
-  #emailcontact form input[type="email"], .quote input, .quote textarea{
-    width:50%;
-    margin-bottom:5px;
-  }
 }
 @media(max-width: 615px){
   header #brand,
   header nav,
   header nav li,
-  #emailcontact h1,
-  #emailcontact form,
   #boxes .box,
   article#main-col{
     float:none;
@@ -199,24 +183,14 @@ footer{
     margin-top:35px;
   }
 
-  #emailcontact button, .quote button{
-    display:block;
-    width:80%;
-  }
-
-  #emailcontact form input[type="email"], .quote input, .quote textarea{
-    width:80%;
-    margin-bottom:5px;
-  }
 }
 
 @media(max-width: 768px){
   header #brand,
   header nav,
   header nav li,
-  #emailcontact h1,
-  #emailcontact form,
   #boxes .box,
+  footer,
   article#main-col{
     float:none;
     text-align:center;
@@ -231,13 +205,4 @@ footer{
     margin-top:40px;
   }
 
-  #emailcontact button, .quote button{
-    display:block;
-    width:100%;
-  }
-
-  #emailcontact form input[type="email"], .quote input, .quote textarea{
-    width:100%;
-    margin-bottom:5px;
-  }
 }
