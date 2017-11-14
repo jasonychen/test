@@ -144,7 +144,7 @@ footer{
 /* Media Queries */
 
 
-@media(max-width: 350px){
+@media(min-width: 350px){
   header #brand,
   header nav,
   header nav li,
@@ -152,7 +152,7 @@ footer{
   article#main-col{
     float:none;
     text-align:center;
-    width:50%;
+    width:60%;
   }
 
   header{
